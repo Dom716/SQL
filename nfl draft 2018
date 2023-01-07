@@ -37,6 +37,9 @@ Insert into nfl_draft2018 values (32,"lamar Jackson",21,32,"Louisville","QB","ba
 select * from nfl_draft2018 where age >21;
 
 
+Select name, case when age >21 then "adult" else "minor" end "type" from nfl_draft2018;
+
+
 select * from nfl_draft2018 where age >21 and position ="QB"; 
 
 
