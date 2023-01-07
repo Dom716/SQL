@@ -1,0 +1,46 @@
+Create table nfl_draft2018(id integer primary key, name text, age integer, pick_number integer, college Text, position text, team text);
+
+Insert into nfl_Draft2018 values (1,"baker mayfield",23,1,"oklahoma","QB","clevland browns");
+Insert into nfl_draft2018 values (2,"Saquon Barkley",21,2,"Penn State","RB","NY Giants");
+Insert into nfl_draft2018 values (3,"Sam Darnold",21,3,"USC","QB","NY Jets");
+Insert into nfl_draft2018 values (4,"Denzel Ward",21,4,"Ohio St","CB","Cleveland Browns");
+Insert into nfl_draft2018 values (5,"Bradley Chubb",22,5,"NC State","DE","denver Broncos");
+Insert into nfl_draft2018 values (6,"Quenton Nelson",22,6,"notre dame","G","indy colts");
+Insert into nfl_draft2018 values (7,"josh allen",22,7,"wyoming","QB","Buffallo Bills");
+Insert into nfl_draft2018 values(8,"Roquan Smith",21,8,"Georgia","LB","Chicago Bears");
+Insert into nfl_draft2018 values (9,"Mike McGlinchey",23,9,"Notre Dame","T","San Fran 49ers");
+Insert into nfl_draft2018 values (10,"josh rosen",21,10,"UCLA","QB","Arizona Cardinals");
+Insert into nfl_draft2018 values (11,"minKah Fitzpatrick",21,11,"alabama","S","miami");
+Insert into nfl_draft2018 values (12,"Vita Vea",23,12,"washington","DT","Tampa By Bucaneers");
+Insert into nfl_draft2018 values (13,"Daron Payne",21,13,"Alabama","DT","washington commanders");
+Insert into nfl_draft2018 values (14,"Marcus Davenport",22,14,"Texas san-antonio","DE","New orlean saints");
+Insert into nfl_draft2018 values (15,"Kolton Miller",22,15,"UCLA","T","Oakland Raiders");
+Insert into nfl_draft2018 values (16,"tremaine Edmunds",20,16,"virgina tech","Lb","buffalo bills");
+Insert into nfl_draft2018 values (17,"Derwin James",22,17,"Florida St","S","los angeles chargers");
+Insert into nfl_draft2018 values (18,"Jaire Alexander",21,18,"Louisville","CB","Green Bay Packers");
+Insert into nfl_draft2018 values (19,"Leighton Vander Esch",22,19,"Boise st","LB","dallas cowboys");
+Insert into nfl_draft2018 values (20,"Frank Ragnow",22,20,"Arkansas","C","Detroit Lions");
+Insert into nfl_draft2018 values (21,"Billy price",23,21,"Ohio st","C","cinncinati Bengals");
+Insert into nfl_draft2018 values (22,"Rashaan evenas",22,22,"Alabama","LB","tennesee titans");
+Insert into nfl_draft2018 values (23,"Isaiah Wynn",22,23,"Geroigia","T","new england patriots");
+Insert into nfl_draft2018 values (24,"Dj moore",21,24,"Maryland","WR","carolina panthers");
+Insert into nfl_draft2018 values (25,"Hayden Hurst",25,25,"south carolina","TE","baltimore ravens");
+Insert into nfl_draft2018 values (26,"Calvin ridley",23,26,"Alabama","WR","Alabama");
+Insert into nfl_draft2018 values (27,"Rashad Penny",22,27,"San diego st","RB","seatle seahawks");
+Insert into nfl_draft2018 values (28,"Terrell Edmunds",21,28,"virgina tech","S","pittsburgh steelers");
+Insert into nfl_draft2018 values (29,"taven Bryan",22,29,"Florida","DT","jacksonville jaguars");
+Insert into nfl_draft2018 values (30,"mike hughes",21,30,"Central florida","CB","minnesota vikings");
+Insert into nfl_draft2018 values (31,"Sony Michel",23,31,"Georgia","RB","new england patriots");
+Insert into nfl_draft2018 values (32,"lamar Jackson",21,32,"Louisville","QB","baltimore ravens");
+
+
+select * from nfl_draft2018 where age >21;
+
+
+select * from nfl_draft2018 where age >21 and position ="QB"; 
+
+
+Select * from nfl_draft2018 where position IN ("T","C");
+
+Select max(age) from nfl_draft2018
+
