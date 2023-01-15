@@ -23,3 +23,7 @@ Select avg(price) "nike" From sportsgoods;
 
 --what is the most expensive item in the store?
 Select Max(price) From sportsgoods;
+
+--- this is showing us the sum total price in each aisle
+select aisle, sum("Price") from sportsgoods group by aisle;
+
