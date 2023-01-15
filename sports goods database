@@ -27,3 +27,6 @@ Select Max(price) From sportsgoods;
 --- this is showing us the sum total price in each aisle
 select aisle, sum("Price") from sportsgoods group by aisle;
 
+--- what items are more than 70 and what aisle is the item by order of the aisle?
+select Aisle, item from sportsgoods where price >70 order by aisle;
+
